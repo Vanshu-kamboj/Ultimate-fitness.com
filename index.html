@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>ULTIMATE FITNESS</title>
+<!--
+
+TemplateMo 548 Training Studio
+
+https://templatemo.com/tm-548-training-studio
+
+-->
+    <!-- Additional CSS Files -->
+     
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/1.1.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-training-studio.css">
+
+    </head>
+    <!-- Join Us Modal -->
+<div id="joinUsModal" class="join-modal">
+  <div class="join-modal-content">
+    <span class="join-close" onclick="closeModal()">&times;</span>
+       
+
+    <img src="assets/images/small_ultimate_fitness_logo.png" alt="Logo" style="max-width: 120px; margin: 20px auto; display: block;">
+    <h2 style="text-align: center;">Join Us Today!</h2>
+       
+    <form action="https://formspree.io/f/mpwryjdb" method="POST" onsubmit="showSuccess(event)">
+      <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}" placeholder="Enter 10-digit number">
+
+            <label for="goal">Membership:</label>
+            <select name="goal" id="goal" required>
+              <option value="">-- Select --</option>
+              <option>1 Month</option>
+              <option>3 Month</option>
+              <option>6 Month</option>
+              <option>12 Month</option>
+            </select>
+
+            <br>
+            
+
+            <button id="submit-btn" type="submit" style="background-color: #ff5722; color: #fff; font-weight: bold; border: none; padding: 12px 20px; border-radius: 5px;">SUBMIT</button>
+            <p id="success-msg" style="color: rgb(160, 230, 160); margin-top: 10px; display: none;">✅ Form submitted. We will contact you soon.</p>
+          </form>
+    </div>
+</div>
+
+  
+      
+    
+    
+
+    
+    <body>
+       
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                         
+                        <a href="index.html" class="logo">
+  <img src="assets/images/small_ultimate_fitness_logo.png" alt="Ultimate Fitness Logo" style="height: 30px; vertical-align: middle; margin-right: 8px;">
+  ULTIMATE<em>FITNESS</em>
+</a>
+
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#highlights">About</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="#membership">Membership</a></li>
+                            <li class="scroll-to-section"><a href="#trainers">Achievements</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                            
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/gym-video.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>work harder, get stronger</h6>
+                <h2>Where Strength Meets <em> Excellence</em></h2>
+                <div class="main-button scroll-to-section">
+                    <a href="#features">Become a member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===== HIGHLIGHTS ===== -->
+<section class="highlights" id="highlights" style="padding: 60px 20px; background: #fff; text-align: center;">
+  <div class="container">
+    <h2 style="font-size: 2.5rem; color: #ff4500; font-weight: bold;">Our Gym Highlights</h2>
+    <p style="max-width: 700px; margin: 15px auto 40px; color: #555;">
+      Ultimate Fitness is not just a name — it’s a commitment to helping you stay strong, focused, and healthy. Whether you're aiming for a fit body, personal guidance from expert trainers, or a disciplined lifestyle, this gym inspires you to work hard every single day.
+    </p>
+
+    <div class="highlight-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+      
+      <!-- Box 1 -->
+      <div class="highlight-box" style="background: #f9f9f9; border-radius: 12px; padding: 20px; width: 300px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+             alt="Modern Equipment" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="font-size: 1.4rem; font-weight: bold;">World-Class Equipment</h3>
+        <p style="color: #555;">Cutting-edge machines and free weights for all your fitness needs.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="highlight-box" style="background: #f9f9f9; border-radius: 12px; padding: 20px; width: 300px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+             alt="Certified Trainers" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="font-size: 1.4rem; font-weight: bold;">Certified Trainers</h3>
+        <p style="color: #555;">Professional coaches to guide you through your fitness journey.</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="highlight-box" style="background: #f9f9f9; border-radius: 12px; padding: 20px; width: 300px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+             alt="Motivational Environment" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px;">
+        <h3 style="font-size: 1.4rem; font-weight: bold;">Motivational Environment</h3>
+        <p style="color: #555;">Energetic atmosphere to keep you pushing your limits.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ***** Features Item End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+                        <p>Good structure and organization, with balanced design and placement, enhance visual appeal. Smooth transitions and flexible layouts provide a better experience.</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="#our-classes">Become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Our Classes Start ***** -->
+    <!-- ===== OUR CLASSES ===== -->
+<section class="section" id="our-classes" style="padding: 60px 20px; background: linear-gradient(135deg, #74b7ea, #3685c0);">
+  <div class="container" style="max-width: 1140px; margin: 0 auto;">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3 text-center">
+        <div class="section-heading" style="background: #ffffffdd; padding: 30px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+          <h2 style="font-size: 2.5rem; font-weight: bold; color: #333;">Our <em style="color: #f9b400;">Classes</em></h2>
+          <img src="assets/images/line-dec.png" alt="divider" style="margin: 20px auto;">
+          <p style="font-size: 16px; color: #555;">
+            Stay committed to your goals with our daily classes — available every day from Monday to Sunday,
+            <strong style="color: #000;">6:00 AM to 10:00 PM</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+    <!-- ***** Our Classes End ***** -->
+    
+    
+<section class="section" id="membership" style="padding: 80px 20px; background: url('https://images.unsplash.com/photo-1584467735871-12c2c6e6c6b4?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative;">
+  <!-- Background overlay -->
+  <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+
+  <div class="container position-relative" style="z-index: 2;">
+    <div class="row mb-5">
+      <div class="col-lg-6 offset-lg-3 text-center">
+        <div class="section-heading">
+          <h2 style="font-weight: 700; color: #ffffff;">Our <em style="color: #00e6c3;">Membership Plans</em></h2>
+          <img src="assets/images/line-dec.png" alt="" style="max-width: 100px;">
+          <p style="color: #ddd;">Join our community and unlock access to premium fitness training, professional guidance, and the motivation you need to transform your lifestyle. Select a plan that fits your goals and commitment level.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center gy-4">
+      <!-- 1 Month -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-lg p-4 rounded-4 bg-light" style="transition: transform 0.3s ease;">
+          <h4 class="text-primary fw-bold">1 Month</h4>
+          <h2 style="color: #333;">₹2000</h2>
+          <p class="text-muted">Perfect to get started</p>
+        </div>
+      </div>
+
+      <!-- 3 Months -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-lg p-4 rounded-4 bg-light" style="transition: transform 0.3s ease;">
+          <h4 class="text-success fw-bold">3 Months</h4>
+          <h2 style="color: #333;">₹4000</h2>
+          <p class="text-muted">Best One</p>
+        </div>
+      </div>
+
+      <!-- 6 Months -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-lg p-4 rounded-4 bg-light" style="transition: transform 0.3s ease;">
+          <h4 class="text-warning fw-bold">6 Months</h4>
+          <h2 style="color: #333;">₹7000</h2>
+          <p class="text-muted">Best value deal</p>
+        </div>
+      </div>
+
+      <!-- 12 Months -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0 shadow-lg p-4 rounded-4 bg-light" style="transition: transform 0.3s ease;">
+          <h4 class="text-danger fw-bold">12 Months</h4>
+          <h2 style="color: #333;">₹12000</h2>
+          <p class="text-muted">Most popular plan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="trainers" style="padding: 100px 20px; background: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover; position: relative; font-family: 'Segoe UI', sans-serif;">
+  <!-- Dark overlay -->
+  <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 2;"></div>
+
+  <div class="container position-relative" style="z-index: 2;">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center text-white">
+        <div class="section-heading mb-5">
+          <h2 style="font-weight: 700;">Trainer’s <em style="color: #686e6d;">Achievements</em></h2>
+          <img src="assets/images/line-dec.png" alt="" style="max-width: 100px;">
+          <p class="mt-3" style="color: #ccc;">Meet our dedicated trainer – a symbol of passion, discipline, and consistency. With relentless effort, he has earned several prestigious certifications and continues to inspire every member with his strength and dedication.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center gy-4">
+      <!-- Certificate 1 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card bg-white border-0 shadow-lg rounded-4 p-2 h-100">
+          <img src="assets/images/WhatsApp Image 2025-06-21 at 12.43.32 PM.jpeg" 
+     class="img-fluid rounded-3" 
+     style="width: 100%; max-width: 400px; height: auto; object-fit: contain;" 
+     alt="Certified Weight Management and Sports Nutrition Certificate">
+
+          <div class="mt-2">
+            <h6 class="text-dark fw-bold">CERTIFIED WEIGHT MANAGEMENT AND SPORTS NUTRITION PROFESSIONAL</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card bg-white border-0 shadow-lg rounded-4 p-2 h-100">
+          <img src="assets/images/2.2.jpeg" 
+     class="img-fluid rounded-3" 
+     style="width: 100%; max-width: 400px; height: auto; object-fit: contain;" 
+     alt="Certified Weight Management and Sports Nutrition Certificate">
+
+          <div class="mt-2">
+            <h6 class="text-dark fw-bold"> Certified Personal Trainer (Fitness Matters Pvt. Ltd.)</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card bg-white border-0 shadow-lg rounded-4 p-2 h-100">
+          <img src="assets/images/3.3.jpeg" 
+     class="img-fluid rounded-3" 
+     style="width: 100%; max-width: 400px; height: auto; object-fit: contain;" 
+     alt="Certified Weight Management and Sports Nutrition Certificate">
+
+          <div class="mt-2">
+            <h6 class="text-dark fw-bold">Certificate of Completion – Supplements & Contest Prep</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card bg-white border-0 shadow-lg rounded-4 p-2 h-100">
+          <img src="assets/images/WhatsApp Image 2025-06-21 at 12.43.33 PM (1).jpeg" 
+     class="img-fluid rounded-3" 
+     style="width: 100%; max-width: 400px; height: auto; object-fit: contain;" 
+     alt="Certified Weight Management and Sports Nutrition Certificate">
+
+          <div class="mt-2">
+            <h6 class="text-dark fw-bold">Certified Personal Trainer – American Council on Exercise (ACE)</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<section class="section" id="contact-us" style="padding: 60px 0; background-color: #111827;">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Left: Map or Image -->
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <div id="map">
+          <img src="assets/images/Screenshot 2025-06-22 183325.png" width="100%" height="600px" style="object-fit: cover; border-radius: 8px;" alt="Map Image">
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="contact-form" style="padding: 40px; background-color: #1f2937; border-radius: 12px; color: #fff;">
+          <h2 style="color: #ffc107;">Register for Membership</h2>
+          <form action="https://formspree.io/f/mzzgkeez" method="POST" onsubmit="showSuccess(event)">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required pattern="[0-9]{10}" placeholder="Enter 10-digit number">
+
+            <label for="goal">Membership:</label>
+            <select name="goal" id="goal" required>
+              <option value="">-- Select --</option>
+              <option>1 Month</option>
+              <option>3 Month</option>
+              <option>6 Month</option>
+              <option>12 Month</option>
+            </select>
+
+            <br>
+            <label for="message">Message (optional):</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+
+            <button id="submit-btn" type="submit" style="background-color: #ff5722; color: #fff; font-weight: bold; border: none; padding: 12px 20px; border-radius: 5px;">SUBMIT</button>
+            <p id="success-msg" style="color: lightgreen; margin-top: 10px; display: none;">✅ Form submitted. We will contact you soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Starts -->
+<footer style="background: #0d1117; padding: 60px 20px; color: #fff; font-family: 'Segoe UI', sans-serif;">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Left: Call to Action -->
+      <div class="col-lg-4 col-md-6">
+        <h3 style="font-weight: 700;">ULTIMATE FITNESS</h3>
+        <p style="font-size: 15px; color: #cfd8dc;">
+          Your transformation starts now. Build strength, gain confidence, and join a family that supports your goals.
+          <strong>Train harder, grow stronger.</strong>
+        </p>
+      </div>
+
+      <!-- Center: Contact Info -->
+      <div class="col-lg-4 col-md-6">
+        <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px;">
+          <h5 class="mb-3">Contact Us</h5>
+          <ul style="list-style: none; padding: 0; font-size: 15px;">
+            <li><i class="fa fa-envelope" style="margin-right: 8px; color: #00e5ff;"></i>
+              <a href="mailto:ultimatefitness1708@gmail.com" style="color: #bbdefb;">ultimatefitness1708@gmail.com</a></li>
+            <li><i class="fa fa-phone" style="margin-right: 8px; color: #00e5ff;"></i>
+              <a href="tel:+918295320069" style="color: #bbdefb;">8295320069</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right: Social Media -->
+      <div class="col-lg-4 col-md-6">
+        <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px;">
+          <h5 class="mb-3">Follow Us</h5>
+          <div style="font-size: 24px;">
+            <a href="https://www.instagram.com/reel/DAsXqhjNXdT/#" target="_blank" style="color: #ffffff; margin-right: 20px;">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+          <p class="mt-3" style="color: #cfd8dc;">Stay updated. Stay motivated.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <hr style="border-color: rgba(255,255,255,0.1); margin: 40px 0;">
+    <div class="row">
+      <div class="col text-center">
+        <p style="margin: 0; color: #90a4ae; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
+          <img src="assets/images/small_ultimate_fitness_logo.png" alt="Logo" style="height: 24px; vertical-align: middle;">
+          ULTIMATE FITNESS | Designed with ❤️ by You
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function showSuccess(event) {
+    event.preventDefault();
+    const form = event.target;
+    const successMsg = form.querySelector('#success-msg');
+    const submitBtn = document.getElementById('submit-btn');
+
+    // Simulate form submission
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        form.reset();
+        successMsg.style.display = 'block';
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Submitted';
+
+        setTimeout(() => {
+          successMsg.style.display = 'none';
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'SUBMIT';
+        }, 3000);
+
+      } else {
+        alert('Something went wrong. Please try again.');
+      }
+    })
+    .catch(error => {
+      alert('Error: ' + error.message);
+    });
+  }
+</script>
+
+      <!-- Contact Info -->
+      
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    
+<script>
+  // Show modal after 3 seconds
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      document.getElementById("joinUsModal").style.display = "flex";
+      document.body.classList.add("modal-open"); // Prevent scroll
+    }, 500);
+  });
+
+  // Close the modal
+  function closeModal() {
+    document.getElementById("joinUsModal").style.display = "none";
+    document.body.classList.remove("modal-open"); // Re-enable scroll
+  }
+</script>
+
+
+  </body>
+</html>
